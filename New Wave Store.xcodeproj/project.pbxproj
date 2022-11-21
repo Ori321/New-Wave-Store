@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		481F6B0C292BA86900859763 /* New_Wave_StoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6AFC292BA86600859763 /* New_Wave_StoreApp.swift */; };
-		481F6B0D292BA86900859763 /* New_Wave_StoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6AFC292BA86600859763 /* New_Wave_StoreApp.swift */; };
 		481F6B0E292BA86900859763 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6AFD292BA86600859763 /* ContentView.swift */; };
 		481F6B0F292BA86900859763 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6AFD292BA86600859763 /* ContentView.swift */; };
 		481F6B10292BA86900859763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481F6AFE292BA86900859763 /* Assets.xcassets */; };
 		481F6B11292BA86900859763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481F6AFE292BA86900859763 /* Assets.xcassets */; };
 		481F6B1B292BAA8200859763 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6B1A292BAA8200859763 /* Product.swift */; };
+		481F6B21292BB07B00859763 /* New_Wave_StoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6AFC292BA86600859763 /* New_Wave_StoreApp.swift */; };
+		481F6B25292BB29100859763 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6B24292BB29100859763 /* ProductList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		481F6B09292BA86900859763 /* New Wave Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Wave Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		481F6B0B292BA86900859763 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		481F6B1A292BAA8200859763 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		481F6B24292BB29100859763 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,8 @@
 			children = (
 				481F6B1D292BAC9100859763 /* Views */,
 				481F6B1C292BAC7900859763 /* Model */,
-				481F6AFC292BA86600859763 /* New_Wave_StoreApp.swift */,
 				481F6AFE292BA86900859763 /* Assets.xcassets */,
+				481F6AFC292BA86600859763 /* New_Wave_StoreApp.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				481F6B1A292BAA8200859763 /* Product.swift */,
+				481F6B24292BB29100859763 /* ProductList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				481F6B0E292BA86900859763 /* ContentView.swift in Sources */,
+				481F6B25292BB29100859763 /* ProductList.swift in Sources */,
 				481F6B0C292BA86900859763 /* New_Wave_StoreApp.swift in Sources */,
 				481F6B1B292BAA8200859763 /* Product.swift in Sources */,
 			);
@@ -206,7 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				481F6B0F292BA86900859763 /* ContentView.swift in Sources */,
-				481F6B0D292BA86900859763 /* New_Wave_StoreApp.swift in Sources */,
+				481F6B21292BB07B00859763 /* New_Wave_StoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
