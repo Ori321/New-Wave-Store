@@ -13,6 +13,7 @@
 		481F6B0F292BA86900859763 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6AFD292BA86600859763 /* ContentView.swift */; };
 		481F6B10292BA86900859763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481F6AFE292BA86900859763 /* Assets.xcassets */; };
 		481F6B11292BA86900859763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481F6AFE292BA86900859763 /* Assets.xcassets */; };
+		481F6B1B292BAA8200859763 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F6B1A292BAA8200859763 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		481F6B03292BA86900859763 /* New Wave Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Wave Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		481F6B09292BA86900859763 /* New Wave Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Wave Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		481F6B0B292BA86900859763 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		481F6B1A292BAA8200859763 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		481F6AFB292BA86600859763 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				481F6B1D292BAC9100859763 /* Views */,
+				481F6B1C292BAC7900859763 /* Model */,
 				481F6AFC292BA86600859763 /* New_Wave_StoreApp.swift */,
-				481F6AFD292BA86600859763 /* ContentView.swift */,
 				481F6AFE292BA86900859763 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +79,22 @@
 				481F6B0B292BA86900859763 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		481F6B1C292BAC7900859763 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				481F6B1A292BAA8200859763 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		481F6B1D292BAC9100859763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				481F6AFD292BA86600859763 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +197,7 @@
 			files = (
 				481F6B0E292BA86900859763 /* ContentView.swift in Sources */,
 				481F6B0C292BA86900859763 /* New_Wave_StoreApp.swift in Sources */,
+				481F6B1B292BAA8200859763 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
